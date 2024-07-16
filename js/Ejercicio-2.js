@@ -1,28 +1,33 @@
 const nota = parseInt(prompt("Ingrese una nota del cero al diez:"));
+if (isNaN(nota)) {
+    alert( "Introduce un número válido");
+}
+else {
 switch (nota){
     case 0:
     case 1:
     case 2:
-        document.write( "Muy deficiente");
+        alert( "Muy deficiente");
         break;
     case 3:
     case 4:
-        document.write( "Insuficiente");
+        alert( "Insuficiente");
         break;
     case 5:
     case 6:
-        document.write( "Suficiente");
+        alert( "Suficiente");
         break;
     case 7:
-        document.write( "Bien");
+        alert( "Bien");
         break;
     case 8:
     case 9:
-        document.write( "Notable");
+        alert( "Notable");
         break;
     case 10:
-        document.write( "Sobresaliente");
+        alert( "Sobresaliente");
         break;
     default:
-        document.write( "Nota erronea");
+        alert( "Nota erronea");
+    }
 }
