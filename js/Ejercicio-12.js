@@ -1,0 +1,1 @@
+document.write( Math.trunc(((Math.random()*100)%99)+1) );
