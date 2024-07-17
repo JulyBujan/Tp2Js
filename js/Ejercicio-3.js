@@ -10,4 +10,4 @@ do {
   }
 } while (confirm("Desea seguir?"));
 
-document.write(totalCadena);
+document.write();
